@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B6611A523BCE59B0067545D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611A423BCE59B0067545D /* AppDelegate.m */; };
+		8B6611A823BCE59B0067545D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611A723BCE59B0067545D /* SceneDelegate.m */; };
+		8B6611AB23BCE59B0067545D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611AA23BCE59B0067545D /* ViewController.m */; };
+		8B6611AE23BCE59B0067545D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6611AC23BCE59B0067545D /* Main.storyboard */; };
+		8B6611B023BCE5A40067545D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6611AF23BCE5A40067545D /* Assets.xcassets */; };
+		8B6611B323BCE5A40067545D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6611B123BCE5A40067545D /* LaunchScreen.storyboard */; };
+		8B6611B623BCE5A40067545D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611B523BCE5A40067545D /* main.m */; };
+		8B6611D623BCE5D60067545D /* LUIInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611BD23BCE5D50067545D /* LUIInput.m */; };
+		8B6611D723BCE5D60067545D /* LUISound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611BE23BCE5D50067545D /* LUISound.m */; };
+		8B6611D823BCE5D60067545D /* UIImage+extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611BF23BCE5D50067545D /* UIImage+extra.m */; };
+		8B6611D923BCE5D60067545D /* LUICheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611C323BCE5D50067545D /* LUICheckbox.m */; };
+		8B6611DA23BCE5D60067545D /* SystemUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611CA23BCE5D50067545D /* SystemUILabel.m */; };
+		8B6611DB23BCE5D60067545D /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611CF23BCE5D50067545D /* UIColor+RGB.m */; };
+		8B6611DC23BCE5D60067545D /* LUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D023BCE5D50067545D /* LUIButton.m */; };
+		8B6611DD23BCE5D60067545D /* LUIAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D123BCE5D50067545D /* LUIAnimation.m */; };
+		8B6611DE23BCE5D60067545D /* LUISystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D223BCE5D50067545D /* LUISystem.m */; };
+		8B6611DF23BCE5D60067545D /* LUIResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D323BCE5D50067545D /* LUIResource.m */; };
+		8B6611E023BCE5D60067545D /* LUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D423BCE5D50067545D /* LUIImage.m */; };
+		8B6611E123BCE5D60067545D /* LUIToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6611D523BCE5D50067545D /* LUIToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B6611A023BCE59B0067545D /* LUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6611A323BCE59B0067545D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B6611A423BCE59B0067545D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B6611A623BCE59B0067545D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8B6611A723BCE59B0067545D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8B6611A923BCE59B0067545D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B6611AA23BCE59B0067545D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B6611AD23BCE59B0067545D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B6611AF23BCE5A40067545D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B6611B223BCE5A40067545D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B6611B423BCE5A40067545D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6611B523BCE5A40067545D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B6611BD23BCE5D50067545D /* LUIInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIInput.m; sourceTree = "<group>"; };
+		8B6611BE23BCE5D50067545D /* LUISound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUISound.m; sourceTree = "<group>"; };
+		8B6611BF23BCE5D50067545D /* UIImage+extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extra.m"; sourceTree = "<group>"; };
+		8B6611C023BCE5D50067545D /* SystemUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUILabel.h; sourceTree = "<group>"; };
+		8B6611C123BCE5D50067545D /* LUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIButton.h; sourceTree = "<group>"; };
+		8B6611C223BCE5D50067545D /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		8B6611C323BCE5D50067545D /* LUICheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUICheckbox.m; sourceTree = "<group>"; };
+		8B6611C423BCE5D50067545D /* LUIAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIAnimation.h; sourceTree = "<group>"; };
+		8B6611C523BCE5D50067545D /* LUISystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUISystem.h; sourceTree = "<group>"; };
+		8B6611C623BCE5D50067545D /* LUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUI.h; sourceTree = "<group>"; };
+		8B6611C723BCE5D50067545D /* LUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIImage.h; sourceTree = "<group>"; };
+		8B6611C823BCE5D50067545D /* LUIToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIToast.h; sourceTree = "<group>"; };
+		8B6611C923BCE5D50067545D /* LUIResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIResource.h; sourceTree = "<group>"; };
+		8B6611CA23BCE5D50067545D /* SystemUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUILabel.m; sourceTree = "<group>"; };
+		8B6611CB23BCE5D50067545D /* UIImage+extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extra.h"; sourceTree = "<group>"; };
+		8B6611CC23BCE5D50067545D /* LUISound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUISound.h; sourceTree = "<group>"; };
+		8B6611CD23BCE5D50067545D /* LUIInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUIInput.h; sourceTree = "<group>"; };
+		8B6611CE23BCE5D50067545D /* LUICheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUICheckbox.h; sourceTree = "<group>"; };
+		8B6611CF23BCE5D50067545D /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		8B6611D023BCE5D50067545D /* LUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIButton.m; sourceTree = "<group>"; };
+		8B6611D123BCE5D50067545D /* LUIAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIAnimation.m; sourceTree = "<group>"; };
+		8B6611D223BCE5D50067545D /* LUISystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUISystem.m; sourceTree = "<group>"; };
+		8B6611D323BCE5D50067545D /* LUIResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIResource.m; sourceTree = "<group>"; };
+		8B6611D423BCE5D50067545D /* LUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIImage.m; sourceTree = "<group>"; };
+		8B6611D523BCE5D50067545D /* LUIToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUIToast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B66119D23BCE59B0067545D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B66119723BCE59B0067545D = {
+			isa = PBXGroup;
+			children = (
+				8B6611BC23BCE5D50067545D /* LibUI */,
+				8B6611A223BCE59B0067545D /* LUI */,
+				8B6611A123BCE59B0067545D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6611A123BCE59B0067545D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B6611A023BCE59B0067545D /* LUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B6611A223BCE59B0067545D /* LUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B6611A323BCE59B0067545D /* AppDelegate.h */,
+				8B6611A423BCE59B0067545D /* AppDelegate.m */,
+				8B6611A623BCE59B0067545D /* SceneDelegate.h */,
+				8B6611A723BCE59B0067545D /* SceneDelegate.m */,
+				8B6611A923BCE59B0067545D /* ViewController.h */,
+				8B6611AA23BCE59B0067545D /* ViewController.m */,
+				8B6611AC23BCE59B0067545D /* Main.storyboard */,
+				8B6611AF23BCE5A40067545D /* Assets.xcassets */,
+				8B6611B123BCE5A40067545D /* LaunchScreen.storyboard */,
+				8B6611B423BCE5A40067545D /* Info.plist */,
+				8B6611B523BCE5A40067545D /* main.m */,
+			);
+			path = LUI;
+			sourceTree = "<group>";
+		};
+		8B6611BC23BCE5D50067545D /* LibUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B6611BD23BCE5D50067545D /* LUIInput.m */,
+				8B6611BE23BCE5D50067545D /* LUISound.m */,
+				8B6611BF23BCE5D50067545D /* UIImage+extra.m */,
+				8B6611C023BCE5D50067545D /* SystemUILabel.h */,
+				8B6611C123BCE5D50067545D /* LUIButton.h */,
+				8B6611C223BCE5D50067545D /* UIColor+RGB.h */,
+				8B6611C323BCE5D50067545D /* LUICheckbox.m */,
+				8B6611C423BCE5D50067545D /* LUIAnimation.h */,
+				8B6611C523BCE5D50067545D /* LUISystem.h */,
+				8B6611C623BCE5D50067545D /* LUI.h */,
+				8B6611C723BCE5D50067545D /* LUIImage.h */,
+				8B6611C823BCE5D50067545D /* LUIToast.h */,
+				8B6611C923BCE5D50067545D /* LUIResource.h */,
+				8B6611CA23BCE5D50067545D /* SystemUILabel.m */,
+				8B6611CB23BCE5D50067545D /* UIImage+extra.h */,
+				8B6611CC23BCE5D50067545D /* LUISound.h */,
+				8B6611CD23BCE5D50067545D /* LUIInput.h */,
+				8B6611CE23BCE5D50067545D /* LUICheckbox.h */,
+				8B6611CF23BCE5D50067545D /* UIColor+RGB.m */,
+				8B6611D023BCE5D50067545D /* LUIButton.m */,
+				8B6611D123BCE5D50067545D /* LUIAnimation.m */,
+				8B6611D223BCE5D50067545D /* LUISystem.m */,
+				8B6611D323BCE5D50067545D /* LUIResource.m */,
+				8B6611D423BCE5D50067545D /* LUIImage.m */,
+				8B6611D523BCE5D50067545D /* LUIToast.m */,
+			);
+			path = LibUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B66119F23BCE59B0067545D /* LUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6611B923BCE5A40067545D /* Build configuration list for PBXNativeTarget "LUI" */;
+			buildPhases = (
+				8B66119C23BCE59B0067545D /* Sources */,
+				8B66119D23BCE59B0067545D /* Frameworks */,
+				8B66119E23BCE59B0067545D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUI;
+			productName = LUI;
+			productReference = 8B6611A023BCE59B0067545D /* LUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B66119823BCE59B0067545D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Cheney Lin";
+				TargetAttributes = {
+					8B66119F23BCE59B0067545D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8B66119B23BCE59B0067545D /* Build configuration list for PBXProject "LUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B66119723BCE59B0067545D;
+			productRefGroup = 8B6611A123BCE59B0067545D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B66119F23BCE59B0067545D /* LUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B66119E23BCE59B0067545D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6611B323BCE5A40067545D /* LaunchScreen.storyboard in Resources */,
+				8B6611B023BCE5A40067545D /* Assets.xcassets in Resources */,
+				8B6611AE23BCE59B0067545D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B66119C23BCE59B0067545D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6611D723BCE5D60067545D /* LUISound.m in Sources */,
+				8B6611D923BCE5D60067545D /* LUICheckbox.m in Sources */,
+				8B6611D823BCE5D60067545D /* UIImage+extra.m in Sources */,
+				8B6611DB23BCE5D60067545D /* UIColor+RGB.m in Sources */,
+				8B6611AB23BCE59B0067545D /* ViewController.m in Sources */,
+				8B6611DA23BCE5D60067545D /* SystemUILabel.m in Sources */,
+				8B6611A523BCE59B0067545D /* AppDelegate.m in Sources */,
+				8B6611DD23BCE5D60067545D /* LUIAnimation.m in Sources */,
+				8B6611DE23BCE5D60067545D /* LUISystem.m in Sources */,
+				8B6611B623BCE5A40067545D /* main.m in Sources */,
+				8B6611E123BCE5D60067545D /* LUIToast.m in Sources */,
+				8B6611DF23BCE5D60067545D /* LUIResource.m in Sources */,
+				8B6611DC23BCE5D60067545D /* LUIButton.m in Sources */,
+				8B6611D623BCE5D60067545D /* LUIInput.m in Sources */,
+				8B6611E023BCE5D60067545D /* LUIImage.m in Sources */,
+				8B6611A823BCE59B0067545D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B6611AC23BCE59B0067545D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6611AD23BCE59B0067545D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B6611B123BCE5A40067545D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6611B223BCE5A40067545D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B6611B723BCE5A40067545D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B6611B823BCE5A40067545D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B6611BA23BCE5A40067545D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5JCXNDZ8F;
+				INFOPLIST_FILE = LUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gpwzw.LUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B6611BB23BCE5A40067545D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5JCXNDZ8F;
+				INFOPLIST_FILE = LUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gpwzw.LUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B66119B23BCE59B0067545D /* Build configuration list for PBXProject "LUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6611B723BCE5A40067545D /* Debug */,
+				8B6611B823BCE5A40067545D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B6611B923BCE5A40067545D /* Build configuration list for PBXNativeTarget "LUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6611BA23BCE5A40067545D /* Debug */,
+				8B6611BB23BCE5A40067545D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B66119823BCE59B0067545D /* Project object */;
+}
