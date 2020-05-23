@@ -43,6 +43,7 @@
             UIImageView *imageBg=[[UIImageView alloc]initWithFrame:frameChild];
             [imageBg setImage:[UIImage imageNamed:bg]];
             [self addSubview:imageBg];
+            self.labelText.textColor = [UIColor UIColorFromARGB:0xFF333333];
         }else{
             
             UIView * bgToast = [LUIResource box:frameChild bgColor:[UIColor UIColorFromARGB:0x55000000] cornerRadius:0];

@@ -14,4 +14,5 @@
 #import "LUIInput.h"
 #import "LUIToast.h"
 #import "LUIAnimation.h"
+#import "LUISound.h"
 #endif /* LUI_h */
